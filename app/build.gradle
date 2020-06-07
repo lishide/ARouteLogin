@@ -35,7 +35,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     // 安卓工具类 https://github.com/Blankj/AndroidUtilCod e
-    implementation 'com.blankj:utilcode:1.23.7'
+    implementation 'com.blankj:utilcode:1.25.9'
 
     //阿里路由
     implementation 'com.alibaba:arouter-api:1.5.0'
