@@ -8,19 +8,34 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import com.blankj.utilcode.util.LogUtils;
 import com.example.aroutelogin.interfaces.RoutePath;
 
+/**
+ * 路由跳转的回调
+ *
+ * @author lishide
+ * @date 2020/5/30
+ */
+public class LoginNavigationCallbackImpl implements NavigationCallback {
 
-public class LoginNavigationCallbackImpl  implements NavigationCallback {
-    @Override //找到了
+    /**
+     * 找到了
+     */
+    @Override
     public void onFound(Postcard postcard) {
 
     }
 
-    @Override //找不到了
+    /**
+     * 找不到了
+     */
+    @Override
     public void onLost(Postcard postcard) {
 
     }
 
-    @Override    //跳转成功了
+    /**
+     * 跳转成功了
+     */
+    @Override
     public void onArrival(Postcard postcard) {
 
     }

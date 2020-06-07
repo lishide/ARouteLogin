@@ -1,7 +1,6 @@
 package com.example.aroutelogin.ui;
 
 import android.os.Bundle;
-
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.facade.annotation.Autowired;
@@ -20,6 +19,6 @@ public class FirstActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
-        ((TextView)findViewById(R.id.tv_msg)).setText(msg);
+        ((TextView) findViewById(R.id.tv_msg)).setText(msg);
     }
 }
